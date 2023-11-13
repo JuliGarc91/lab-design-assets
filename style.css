@@ -1,0 +1,44 @@
+html,
+body {
+    color:rgb(255, 255, 206);
+    /* color:rgb(206, 255, 239); */
+    background: linear-gradient(rgb(53, 90, 77),rgb(24, 43, 36));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px auto;
+    padding: 0px auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:rgb(206, 255, 239);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin:0;
+    text-align: center;
+}
+
+footer {
+    position: relative;
+  }
+
+  footer ul {
+    list-style: none;
+    padding: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+  }
+
+  footer li {
+    margin-right: 10px; /* Adjust the spacing between icons */
+  }
+
+  footer img {
+    width: 30px; /* Adjust the width of the icons as needed */
+    height: 30px; /* Adjust the height of the icons as needed */
+  }
